@@ -1,3 +1,6 @@
+""" from cgi import parse_header
+""" 
+
 print("hello world!")
 print ("my name is megan!")
 
@@ -11,11 +14,15 @@ print(sum(numlist))
 namelist = ["owen", "megan", "abby", "winston", "Father G", "Father Campo"]
 
 for name in namelist:
-    if name is "megan":
+    if name == "megan":
         print(":)")
 
 for name in namelist:
-    if name.find("Father") is not -1:
+    if name.find("Father") != -1:
         print(name + " + ")
 
 print(namelist[0])
+print (namelist) 
+
+seventySixTrombones = "big parade"
+print(seventySixTrombones)
